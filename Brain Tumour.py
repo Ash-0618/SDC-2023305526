@@ -1,9 +1,6 @@
 # === 1. IMPORT LIBRARIES ===
 import numpy as np
-import pandas as pd
-import cv2
 import os
-import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 import tensorflow as tf
 from tensorflow.keras import layers, models
@@ -11,8 +8,8 @@ from tensorflow.keras.preprocessing.image import load_img, img_to_array
 import streamlit as st
 
 # === 2. LOAD DATASET ===
-IMAGE_DIR = "E:\\Aswin Docs\\Code\\images"
-MASK_DIR = "E:\\Aswin Docs\\Code\\masks"
+IMAGE_DIR = "images"
+MASK_DIR = "masks"
 
 IMG_HEIGHT = 256
 IMG_WIDTH = 256
