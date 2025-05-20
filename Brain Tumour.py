@@ -3,8 +3,8 @@ import numpy as np
 import os
 from sklearn.model_selection import train_test_split
 import tensorflow as tf
-from tensorflow.keras import layers, models
-from tensorflow.keras.preprocessing.image import load_img, img_to_array
+from tensorflow.keras import layers, models # type: ignore
+from tensorflow.keras.preprocessing.image import load_img, img_to_array # type: ignore
 import streamlit as st
 
 # === 2. LOAD DATASET ===
